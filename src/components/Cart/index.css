@@ -17,6 +17,24 @@
   max-width: 1110px;
 }
 
+.remove-all {
+  height: 35px;
+  width: 95px;
+  border-radius: 7px;
+  border-color: #0b69ff;
+  background-color: #0b69ff;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  align-self: flex-end;
+}
+
+@media screen and (min-width: 768px) {
+  .remove-all {
+    align-self: center;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .cart-content-container {
     width: 80%;
@@ -38,3 +56,13 @@
 }
 
 /* Write your CSS here */
+
+.price-total {
+  align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .price-total {
+    align-self: center;
+  }
+}
